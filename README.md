@@ -24,8 +24,8 @@ A simple Snake game implemented in C/C++ using OpenGL and GLFW.
    ```
 
 2. **Install dependencies:**
-   - Download and build GLFW, or use pre-built binaries.
-   - Make sure `glfw3.lib` and `glfw3.dll` are available.
+    - Download and build GLFW, or use pre-built binaries.
+    - Make sure `glfw3.lib` and `glfw3.dll` are available.
 
 3. **Configure and build the project:**
    ```
@@ -34,7 +34,7 @@ A simple Snake game implemented in C/C++ using OpenGL and GLFW.
    ```
 
 4. **Copy required DLLs:**
-   - Copy `glfw3.dll` to the `cmake-build-debug` directory (next to `snake_game.exe`).
+    - Copy `glfw3.dll` to the `cmake-build-debug` directory (next to `snake_game.exe`).
 
 5. **Run the game:**
    ```
@@ -44,7 +44,8 @@ A simple Snake game implemented in C/C++ using OpenGL and GLFW.
 
 ## Troubleshooting
 
-- If you see an error about a missing DLL (`0xC0000135`), ensure `glfw3.dll` is in the same directory as the executable or in your system `PATH`.
+- If you see an error about a missing DLL (`0xC0000135`), ensure `glfw3.dll` is in the same directory as the executable
+  or in your system `PATH`.
 - Make sure your graphics drivers support OpenGL.
 
 ## License
